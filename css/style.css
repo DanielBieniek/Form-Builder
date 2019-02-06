@@ -1,0 +1,82 @@
+* {
+    font-family: "Arial";
+    font-size: 16px;
+}
+
+#content {
+    margin: 40px 0 40px 30px;
+}
+
+#title {
+    font-size: 30px;
+    margin: 25px 0 0 65px;
+}
+
+.formBlock {
+    margin: 20px 0 0 30px;
+}
+
+.form {
+    width: 540px;
+    border: 1px gray solid;
+    padding: 20px;
+}
+
+.row {
+    margin: 5px 0;
+}
+
+.row > span {
+    display: inline-block;
+    width: 15%;
+}
+
+.row > input[type="text"],
+.row > input[type="number"],
+.row > select {
+    width: 80%;
+    height: 30px;
+    padding: 0;
+    border: 1px gray solid;
+}
+
+.condition > select {
+    width: 55%;
+}
+
+.condition > input[type="text"],
+.condition > input[type="number"],
+.condition > select:last-child {
+    width: 25%;
+}
+
+.buttons {
+    text-align: right;
+    padding: 10px 0;
+}
+
+button {
+    width: 125px;
+    height: 40px;
+    font-size: 14px;
+    background-color: lightgray;
+    border: 1px gray solid;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.bigButton {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    margin: 40px 50px;
+}
