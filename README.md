@@ -5,13 +5,16 @@ The project stores a persistent state for the form objects in the **IndexedDB**.
 The entire app lives on the front-end without a backend.  
 
 To run the project, download the files and launch it on a server.  
+(The app can run without the server on Chrome or Opera. Just double click the *index.html* file.  
+Mozilla requires the project to be on a server.)  
+
 In order to create your own **localhost server**:
 * Install **[Node.Js](https://nodejs.org/en/)** 
 * Open the *Command Prompt* in a folder with the project files
   * Install **http-server** globally using **npm** (Node.Js Package Manager)  
-  write **```npm install http-server -g```** and press enter
+  write **`npm install http-server -g`** and press enter
   * Start localhost server  
-  write **```http-server```** and press enter
+  write **`http-server`** and press enter
 * Open a browser and go to the page *localhost:8080*  
 
 ##
